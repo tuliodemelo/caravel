@@ -1,0 +1,22 @@
+{
+    "name": "ecritel/module-cmspageauthor",
+    "description": "Ecritel CMS Page Author Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Caravel Core Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecritel\\CmsPageAuthor\\\\": ""
+        }
+    }
+}
